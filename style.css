@@ -1,0 +1,103 @@
+:root {
+    margin: 10px;
+}
+body {
+    background-color: rgb(253, 255, 255);
+}
+
+/* Class begin */
+.title {
+    font-size: 50px;
+    font-weight: bolder;
+}
+.goodbye-message {
+    display: none;
+}
+.game-box {
+    background-color: rgba(127, 255, 212, 0.651);
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.game-body {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5px;
+}
+.rule-container {
+    background-color: rgba(102, 196, 164, 0.651);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.rule-container-2 {
+    display: inline-flex;
+}
+.rule-message-box {
+    justify-content: center;
+    display: none;
+}
+.rule-btn {
+    margin: 30px 10px;
+}
+.rules {
+    /* display: none; */
+}
+.score {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5px;
+}
+.score-list {
+    display: inline-block;
+    list-style: none;
+    padding-left: 0px;
+    font-size: 25px;
+}
+.player-score {
+    display: inline-block;
+    margin: 0px 5px;
+}
+.computer-score {
+    display: inline-block;
+    margin: 0px 5px;
+}
+.tie-score {
+    display: inline-block;
+    margin: 0px 5px;
+}
+.rock {
+    margin: 15px;
+}
+.paper {
+    margin: 15px;
+}
+.scissor {
+    margin: 15px;
+}
+.user {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 25px;
+    border-radius: 0%;
+    background-color: aquamarine;
+    width: 130px;
+    padding: 10px;
+    text-align: center;
+}
+.winner-loser {
+    color: rgb(250, 0, 0);
+    font-size: 40px;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.reset {
+    margin-left: 5%;
+    padding: 5px 5px 5px 0px;
+    background-color: aquamarine;
+    width: fit-content;
+    border: double 2px rgb(65, 172, 136);
+}
+/* Class end */
