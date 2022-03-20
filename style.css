@@ -101,3 +101,34 @@ body {
     border: double 2px rgb(65, 172, 136);
 }
 /* Class end */
+@media screen and (max-width:900px) {
+    .title {
+        font-size: 35px;
+    }
+    .player-choice {
+        display: inline;
+    }
+    .rock {
+        width: 60px;
+    }
+    .paper {
+        width: 60px;
+    }
+    .scissor {
+        width: 60px;
+    }
+    .score {height: fit-content;}
+    .score-list {
+        display: block;
+        margin: 0px;
+    }
+    .rule-container {
+        display: none;
+    }
+    .player-score{ display: block;}
+    .computer-score{display: block;}
+    .tie-score{display: block;}
+    #computer-choice { 
+        width: 60px;
+    }
+}
