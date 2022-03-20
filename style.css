@@ -131,4 +131,14 @@ body {
     #computer-choice { 
         width: 60px;
     }
+    .user {
+        font-size: 20px;
+        width: 100px;
+    }
+    li {
+        font-size: 20px;
+    }
+    .winner-loser {
+        font-size: 25px;
+    }
 }
